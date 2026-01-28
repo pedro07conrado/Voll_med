@@ -41,22 +41,22 @@ public class Endereco {
             this.logradouro = dados.logradouro();
         }
         if (dados.logradouro() != null){
-            this.logradouro = dados.logradouro();
+            this.bairro = dados.bairro();
         }
         if (dados.logradouro() != null){
-            this.logradouro = dados.logradouro();
+            this.cep = dados.cep();
         }
         if (dados.logradouro() != null){
-            this.logradouro = dados.logradouro();
+            this.uf = dados.uf();
         }
         if (dados.logradouro() != null){
-            this.logradouro = dados.logradouro();
+            this.cidade = dados.cidade();
         }
         if (dados.logradouro() != null){
-            this.logradouro = dados.logradouro();
+            this.numero = dados.numero();
         }
         if (dados.logradouro() != null){
-            this.logradouro = dados.logradouro();
+            this.complemento = dados.complemento();
         }
 
     }
